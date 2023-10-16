@@ -1,0 +1,12 @@
+index_generator:
+  default_name: models
+  exclude:
+    - '**.g.dart'
+  indexes:
+    - path: lib
+      include:
+        - 'src/**'
+      disclaimer: false
+      comments: |
+        Copyright (c) 2023 Volvlabs
+      library: index_generator
